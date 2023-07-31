@@ -28,8 +28,7 @@ ul, ol{
 }
 a{
     display: block;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 p a{
     display: inline;

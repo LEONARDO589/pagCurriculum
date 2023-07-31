@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Estilos -->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>appjavier</title>
+  </head>
+  <body>
+    <!--layout principal -->
+
+    <div class="layout">
+      <!-- Barra lateral (info usuario )-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!--Informacion General -->
+          <div class="user-info__general">
+            <div class="user-info__container-imagen">
+              <img
+                src="assets/img/javier-default.jpg"
+                class="user-info__image"
+                alt="foto perfil"
+              />
+            </div>
+            <h2 class="user-info__name">JAVIER VALERO ROJAS</h2>
+            <h3 class="user-info__job">Ingeniero Informático</h3>
+          </div>
+          <!--Informacion navegacion  -->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="estudios.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Estudios</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="porfatofilio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!--Informacion redes sociales -->
+          <div class="user-info__user-links">
+            <ul class="user-links__social">
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!--Informacion corriculum  -->
+
+          <div class="user-info__buttons">
+            <a href="#" class="user-info__btn">Descarga CV</a>
+          </div>
+          <!--Pie de Pagina -->
+          <footer class="user-info__footer">
+            &copy; 2024 Javier Valero - Web
+          </footer>
+        </section>
+      </aside>
+
+      <!-- Cotenido Principal de la pagina -->
+
+      <main class="layout__content">
+        <section class="content__page content__about">
+          <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA -->
+          <header class="about__header">
+            <h2 class="about__title">
+              Sobre <span class="title__color">Mi</span>
+            </h2>
+          </header>
+
+          <section class="about__personal-info">
+            <article class="personal-info__bio">
+              <p class="personal-info__description">
+                Soy un ingeniero informático con una especialización en
+                seguridad informática, graduado de la prestigiosa universidad
+                UNIR de España. Actualmente, me encuentro trabajando como
+                profesional en la Policía Nacional de Colombia, donde pongo en
+                práctica mis conocimientos para proteger y garantizar la
+                seguridad en el ámbito de la informática y las tecnologías de la
+                información. Mi pasión por la tecnología y mi compromiso con el
+                servicio público me impulsan a estar siempre actualizado en las
+                últimas tendencias en ciberseguridad y protección de datos, con
+                el fin de contribuir a la prevención y resolución de delitos
+                informáticos en beneficio de la sociedad. Estoy orgulloso de ser
+                un eslabón clave en la lucha contra las amenazas digitales y de
+                poder aplicar mis habilidades para mantener la integridad y
+                confidencialidad de la información en un mundo cada vez más
+                interconectado y tecnológico.
+              </p>
+            </article>
+            <div class="personal-info__data">
+              <ul class="personal-info__list">
+                <li class="personal-info__option">
+                  <span class="personal-info__titel">Edad</span>
+                  <span class="personal-info__value">38</span>
+                </li>
+                <li class="personal-info__option">
+                  <span class="personal-info__titel">Pais</span>
+                  <span class="personal-info__value">Colombia</span>
+                </li>
+                <li class="personal-info__option">
+                  <span class="personal-info__titel">Ciudad</span>
+                  <span class="personal-info__value">Bucaramanga</span>
+                </li>
+                <li class="personal-info__option">
+                  <span class="personal-info__titel">Laboral</span>
+                  <span class="personal-info__value">Laborando</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="about__services">
+            <header class="services__header">
+              <h3 class="services__title">
+                Lo que <span class="title__color">hago</span>
+              </h3>
+            </header>
+            <div class="services__container">
+              <article class="services__service">
+                <div class="service__icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="service__content">
+                  <h4 class="service__title">Programación</h4>
+                  <p class="service__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis maxime nisi vitae consequuntur quaerat a repellat
+                    optio quis, facere, deleniti qui unde nihil tenetur veniam
+                    eligendi molestias id odit est?
+                  </p>
+                </div>
+              </article>
+
+              <article class="services__service">
+                <div class="service__icon">
+                  <i class="fa-solid fa-chalkboard-user"></i>
+                </div>
+                <div class="service__content">
+                  <h4 class="service__title">Formación</h4>
+                  <p class="service__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis maxime nisi vitae consequuntur quaerat a repellat
+                    optio quis, facere, deleniti qui unde nihil tenetur veniam
+                    eligendi molestias id odit est?
+                  </p>
+                </div>
+              </article>
+
+              <article class="services__service">
+                <div class="service__icon">
+                  <i class="fa-solid fa-computer"></i>
+                </div>
+                <div class="service__content">
+                  <h4 class="service__title">Desarrollo web</h4>
+                  <p class="service__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis maxime nisi vitae consequuntur quaerat a repellat
+                    optio quis, facere, deleniti qui unde nihil tenetur veniam
+                    eligendi molestias id odit est?
+                  </p>
+                </div>
+              </article>
+
+              <article class="services__service">
+                <div class="service__icon">
+                  <i class="fa-solid fa-terminal"></i>
+                </div>
+                <div class="service__content">
+                  <h4 class="service__title">Soporte Técnico</h4>
+                  <p class="service__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis maxime nisi vitae consequuntur quaerat a repellat
+                    optio quis, facere, deleniti qui unde nihil tenetur veniam
+                    eligendi molestias id odit est?
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="about__reviews">
+            <header class="reviews__header">
+              <h3 class="reviews__title">Reseñas</h3>
+            </header>
+            <div class="reviews__container">
+              <article class="reviews__review">
+                <div class="review__img">
+                  <img
+                    src="assets/img/testimonio1.jpg"
+                    class="review__image"
+                    alt="foto testimonio 1"
+                  />
+                </div>
+                <div class="review__description">
+                  <p class="review__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Odio nobis rerum officiis fugit repellat quis facere,
+                    dolorem provident hic quibusdam ipsa nesciunt. Perspiciatis
+                    debitis deserunt eligendi omnis cupiditate unde voluptates.
+                  </p>
+                </div>
+                <div class="review__autor">
+                  <div class="review__author-info">
+                    <h4 class="review__name">Leonardo Merchan</h4>
+                    <h5 class="review__company">Pensionado</h5>
+                  </div>
+                  <div class="review__author-icon">
+                    <i class="review_icon fa-solid fa-quote-right"></i>
+                  </div>
+                </div>
+              </article>
+
+              <article class="reviews__review">
+                <div class="review__img">
+                  <img
+                    src="assets/img/testimonio2.jpg"
+                    class="review__image"
+                    alt="foto testimonio 1"
+                  />
+                </div>
+                <div class="review__description">
+                  <p class="review__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Odio nobis rerum officiis fugit repellat quis facere,
+                    dolorem provident hic quibusdam ipsa nesciunt. Perspiciatis
+                    debitis deserunt eligendi omnis cupiditate unde voluptates.
+                  </p>
+                </div>
+                <div class="review__autor">
+                  <div class="review__author-info">
+                    <h4 class="review__name">Maythe Sanchez</h4>
+                    <h5 class="review__company">Compañera</h5>
+                  </div>
+                  <div class="review__author-icon">
+                    <i class="review_icon fa-solid fa-quote-right"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="about__prices">
+            <header class="prices__header">
+              <h2 class="prices__title">Precios</h2>
+            </header>
+            <div class="prices__container">
+              <article class="prices__box">
+                <div class="prices__subtitle">
+                  <span class="prices__text">Normal</span>
+                </div>
+                <div class="prices__price">
+                  <span class="prices__number">20</span>
+                  <small class="prices__advice">Al mes</small>
+                </div>
+                <div class="prices__buy">
+                  <a href="#" class="prices__btn">Prueba Gratis</a>
+                </div>
+                <div class="prices__reward">Un curso de desarro wev</div>
+                <div class="prices__reward">Soporte a preguntas</div>
+                <div class="prices__reward">LLamadas telefonicas</div>
+              </article>
+
+              <article class="prices__box">
+                <div class="prices__subtitle">
+                  <span class="prices__text">Premium</span>
+                </div>
+                <div class="prices__price">
+                  <span class="prices__number">50</span>
+                  <small class="prices__advice">Al mes</small>
+                </div>
+                <div class="prices__buy">
+                  <a href="#" class="prices__btn">Prueba Gratis</a>
+                </div>
+                <div class="prices__reward">Un informe de finalización</div>
+                <div class="prices__reward">Soporte a preguntas</div>
+                <div class="prices__reward">
+                  LLamadas telefonicas las 24 horas
+                </div>
+              </article>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

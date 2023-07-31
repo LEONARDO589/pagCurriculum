@@ -299,5 +299,8 @@ body{
     padding: 6rem;
     padding-right: 3rem;
     overflow: auto;
-    
+}
+
+.about__header{
+    margin-bottom: 4.5rem;
 }

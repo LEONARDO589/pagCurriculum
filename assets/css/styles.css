@@ -12,6 +12,9 @@
     --color-titles: #222222;
     --color-subtitle: #888;
     --color-text: #555;
+
+    --color-border-reviews: #e5e6e7;
+    --color-company: #a5a5a7
 }
 
 /* Estilos generales */
@@ -49,7 +52,7 @@ body{
 
 .layout{
     position: relative;
-    min-width: 1590px;
+    min-width: 1290px;
     width: 75%;
     height: 80vh;
     min-height: 80vh;
@@ -302,5 +305,195 @@ body{
 }
 
 .about__header{
+    display: inline-block;
     margin-bottom: 4.5rem;
+
+}
+
+.about__title{
+    font-size: 3.2rem;
+    position: relative;
+
+    
+}
+
+.about__title::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: -25px;
+    width: 50px;
+    height: 30px;
+    background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+}
+
+.title__color{
+    color: var(--color-secondary);
+}
+
+/* INFORMACION PERSONAL */
+
+.about__personal-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5rem;
+
+}
+
+.personal-info__bio{
+    flex-basis: 70%;
+
+}
+
+.personal-info__description{
+    font-size: 1rem;
+    line-height: 2.4rem;
+}
+
+.personal-info__data{
+    flex-basis: 30%;
+    padding: 0 1.5rem;
+}
+
+.personal-info__option{
+    margin-bottom: 1rem;
+}
+
+.personal-info__title{
+    color: var(--color-secondary);
+    margin-right: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.about__services, 
+.about__reviews{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.services__header,
+.reviews__header{
+    display: inline-block;
+    padding-right: 1.2rem;
+    position: relative;
+    margin-bottom: 2.5rem;
+
+}
+.services__title,
+.reviews__title{
+    font-size: 2.1rem;
+}
+
+.services__title::after,
+.reviews__title::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 30px;
+    height: 20px;
+    background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+}
+
+.services__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.services__service{
+    flex-basis: calc(50% - 3rem);
+    margin-right: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.service__title{
+    font-size: 1.8rem;
+    margin: 0.5rem;
+}
+
+.service__description{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.service__real-icon {
+    color: var(--color-secondary);
+    font-size: 3.8rem;
+
+}
+
+.reviews__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.reviews__review{
+    flex-basis: calc(50% - 2.5rem);
+
+    border: 2px solid var(--color-border-reviews);
+    border-radius: 2rem;
+    padding-top: 0;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    margin-right: 2.5rem;
+    margin-top: 4.5rem;
+    margin-bottom: 10rem;
+
+}
+
+.review__img{
+    width: 100%;
+
+}
+
+.review__image{
+    max-width: 9rem;
+    max-height: 9rem;
+    border-radius: 9rem;
+    margin: 0 auto;
+    margin-top: -4.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 1.22);
+}
+
+.review__description{
+    margin-bottom: 1rem;
+
+}
+
+.review__text{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.review__autor{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review__name{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.review__company{
+    color: var(--color-company);
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.review__author-icon{
+    font-size: 4rem;
+    opacity: 0.5;
+    color: var(--color-secondary);
 }

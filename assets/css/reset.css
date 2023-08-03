@@ -28,6 +28,7 @@ ul, ol{
 }
 a{
     display: block;
+    color: var(--color-icon);
     text-decoration: none;   
 }
 p a{

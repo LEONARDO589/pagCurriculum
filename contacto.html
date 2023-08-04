@@ -118,75 +118,100 @@
       <main class="layout__content">
         <section class="content__page content__contact">
           <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA -->
+          <!-- HEADER DE LA PAGES-->
           <header class="contact__header">
             <h2 class="contact__title">Contacto</h2>
           </header>
+
+          <!--INFORMACION DE LA PAGINA CUERPO-->
+
           <div class="contact__container">
 
-            <section class="container_info">
-                <div class="contact_data">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <h2 class="contact__subtitle">Madrid</h2>
-                </div>
-                <div class="contact_data">
-                    <i class="fa-solid fa-phone"></i>
-                    <h2 class="contact__subtitle">320-0000000</h2>
-                </div>
-                <div class="contact_data">
-                    <i class="fa-solid fa-envelope"></i>
-                    <h2 class="contact__subtitle">javier@javiervalero.com.co</h2>
-                </div>
+            <section class="contact_info">
+              <div class="contact_data">
+                <i class="contact__icon fa-solid fa-location-dot"></i>
+                <h2 class="contact__subtitle">Bucaramanga</h2>
+              </div>
+              <div class="contact_data">
+                <i class="contact__icon fa-solid fa-phone"></i>
+                <h2 class="contact__subtitle">320-0000000</h2>
+              </div>
+              <div class="contact_data">
+                <i class="contact__icon fa-solid fa-envelope"></i>
+                <h2 class="contact__subtitle">javier@javiervalero.com.co</h2>
+              </div>
 
-
-                <div class="contact_data">
-                    <i class="fa-solid fa-circle-check"></i>
-                    <h2 class="contact__subtitle">Analista Freelance</h2>
-                </div>
+              <div class="contact_data">
+                <i class="contact__icon fa-solid fa-circle-check"></i>
+                <h2 class="contact__subtitle">Analista Seguridad Freelance</h2>
+              </div>
             </section>
 
             <section class="contact__box">
+              <div class="contact__map">
+                <!-- <iframe frameborfer="0" scrolling="no" marginheight="0" marginwindth="0" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63344.93811182735!2d-73.17417760679068!3d7.119204178357501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68157af751c0ed%3A0x75a0e4551148c36c!2sBucaramanga%2C%20Santander!5e0!3m2!1ses!2sco!4v1691114760804!5m2!1ses!2sco" ></iframe> -->
+              </div>
+              <header class="contact__form-header">
+                <h3 class="form-header__title">
+                  Como puedo <span class="title__color">ayudarte</span>
+                </h3>
+              </header>
 
-                <div class="contact__map">
-                   <!-- <iframe frameborfer="0" scrolling="no" marginheight="0" marginwindth="0" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63344.93811182735!2d-73.17417760679068!3d7.119204178357501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68157af751c0ed%3A0x75a0e4551148c36c!2sBucaramanga%2C%20Santander!5e0!3m2!1ses!2sco!4v1691114760804!5m2!1ses!2sco" ></iframe> -->
-                </div>
-                <header class="contact__form-header">
-                    <h3 class="contact__subtitle">
-                        Como puedo <span class="title__color">ayudarte</span>
-                    </h3>
-                </header>
-
-                <form action="" class="contact__form">
-                    <div class="form__container">
-                        <section class="form__left">
-                            <div class="form__group">
-                                <input type="text" class="form__input" name="name" required placeholder="Nombre">
-                                <label for="name" class="form__label">Nombre</label>
-                            </div>
-                            <div class="form__group">
-                                <input type="email" class="form__input" name="email" required placeholder="Email">
-                                <label for="email" class="form__label">Email</label>
-                            </div>
-
-                            <div class="form__group">
-                                <input type="text" class="form__input" name="subject" required placeholder="subject">
-                                <label for="subject" class="form__label">Asunto</label>
-                            </div>
-
-                        </section>
-                        <section class="form__right">
-                            <div class="form__group">
-                              <textarea name="menssage" id="menssage" class="form_input form__input--textarea"></textarea>
-                              <label for="menssage" class="form__label">Mensaje</label>
-                            </div>
-                        </section>
-
+              <form action="" class="contact__form">
+                <div class="form__container">
+                  <section class="form__left">
+                    <div class="form__group">
+                      <input
+                        type="text"
+                        class="form__input"
+                        name="name"
+                        required
+                        placeholder="Nombre"
+                      />
+                      <label for="name" class="form__label">Nombre</label>
+                    </div>
+                    <div class="form__group">
+                      <input
+                        type="email"
+                        class="form__input"
+                        name="email"
+                        required
+                        placeholder="Email"
+                      />
+                      <label for="email" class="form__label">Email</label>
                     </div>
 
-                    <input type="submit" class="form__button" value="Enviar Mensaje">
-                </form>
+                    <div class="form__group">
+                      <input
+                        type="text"
+                        class="form__input"
+                        name="subject"
+                        required
+                        placeholder="subject"
+                      />
+                      <label for="subject" class="form__label">Asunto</label>
+                    </div>
+                  </section>
+                  <section class="form__right">
+                    <div class="form__group form__group--textarea">
+                      <textarea
+                        name="menssage"
+                        id="menssage"
+                        class="form_input form__input--textarea"
+                      ></textarea>
+                      <label for="menssage" class="form__label">Mensaje</label>
+                    </div>
+                  </section>
+                </div>
 
+                <input
+                  type="submit"
+                  class="form__button"
+                  value="Enviar Mensaje"
+                />
+              </form>
             </section>
-          </div>     
+          </div>
         </section>
       </main>
     </div>

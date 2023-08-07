@@ -1,240 +1,215 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Estilos -->
-    <link
-      rel="stylesheet"
-      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.css"
-    />
-    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/scroll.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/porcentage.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-    <title>appjavier</title>
-  </head>
+  <!--Estilos -->
+  <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.css" />
+  <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/scroll.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/porcentage.css" />
 
-  <body>
-    <!--layout principal -->
+  <title>appjavier</title>
+</head>
 
-    <div class="layout">
-      <!-- Barra lateral (info usuario )-->
-      <aside class="layout__aside">
-        <section class="aside__user-info">
-          <!--Informacion General -->
-          <div class="user-info__general">
-            <div class="user-info__container-imagen">
-              <img
-                src="assets/img/javier-default.jpg"
-                class="user-info__image"
-                alt="foto perfil"
-              />
+<body>
+  <!--layout principal -->
+
+  <div class="layout">
+    <!-- Barra lateral (info usuario )-->
+    <aside class="layout__aside">
+      <section class="aside__user-info">
+        <!--Informacion General -->
+        <div class="user-info__general">
+          <div class="user-info__container-imagen">
+            <img src="assets/img/javier-default.jpg" class="user-info__image" alt="foto perfil" />
+          </div>
+          <h2 class="user-info__name">JAVIER VALERO ROJAS</h2>
+          <h3 class="user-info__job">Ingeniero Informático</h3>
+        </div>
+        <!--Informacion navegacion  -->
+        <nav class="layout__menu">
+          <ul class="menu__list">
+            <li class="menu__option">
+              <a href="index.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-house"></i>
+                <span class="menu__overlay">Home</span>
+              </a>
+            </li>
+            <li class="menu__option">
+              <a href="sobre-mi.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-user"></i>
+                <span class="menu__overlay">Sobre mi</span>
+              </a>
+            </li>
+            <li class="menu__option">
+              <a href="curriculum.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                <span class="menu__overlay">Curriculum</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="portafolio.html" class="menu__link ">
+                <i class="menu__icon fa-solid fa-briefcase"></i>
+                <span class="menu__overlay">Portafolio</span>
+              </a>
+            </li>
+            <li class="menu__option">
+              <a href="blog.html" class="menu__link menu__link--active">
+                <i class="menu__icon fa-solid fa-book"></i>
+                <span class="menu__overlay">Blog</span>
+              </a>
+            </li>
+            <li class="menu__option">
+              <a href="contacto.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-envelope"></i>
+                <span class="menu__overlay">Contacto</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--Informacion redes sociales -->
+        <div class="user-info__user-links">
+          <ul class="user-links__social">
+            <li class="social__option">
+              <a href="#" class="social__link">
+                <i class="social__icon fa-brands fa-youtube"></i>
+              </a>
+            </li>
+            <li class="social__option">
+              <a href="#" class="social__link">
+                <i class="social__icon fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="social__option">
+              <a href="#" class="social__link">
+                <i class="social__icon fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!--Informacion corriculum  -->
+
+        <div class="user-info__buttons">
+          <a href="#" class="user-info__btn">Descarga CV</a>
+        </div>
+        <!--Pie de Pagina -->
+        <footer class="user-info__footer">
+          &copy; 2024 Javier Valero - Web
+        </footer>
+      </section>
+    </aside>
+
+    <!-- Cotenido Principal de la pagina -->
+
+    <main class="layout__content">
+      <section class="content__page content__blog">
+        <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA -->
+        <header class="blog__header">
+          <h2 class="blog__title">Blog</h2>
+        </header>
+
+        <section class="blog__articles">
+          <article class="articles__article">
+            <div class="article__top">
+              <div class="article__category">Desarrollo</div>
+              <a href="#" class="article__image-link">
+                <div class="article__mask">
+                  <img class="article__image" src="assets/img/articulo-1.jpg" alt="Imagen del blog" />
+                </div>
+                <div class="article__logo">
+                  <i class="article__icon fa-solid fa-book"></i>
+                </div>
+              </a>
             </div>
-            <h2 class="user-info__name">JAVIER VALERO ROJAS</h2>
-            <h3 class="user-info__job">Ingeniero Informático</h3>
-          </div>
-          <!--Informacion navegacion  -->
-          <nav class="layout__menu">
-            <ul class="menu__list">
-              <li class="menu__option">
-                <a href="index.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-house"></i>
-                  <span class="menu__overlay">Home</span>
-                </a>
-              </li>
-              <li class="menu__option">
-                <a href="sobre-mi.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-user"></i>
-                  <span class="menu__overlay">Sobre mi</span>
-                </a>
-              </li>
-              <li class="menu__option">
-                <a href="curriculum.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
-                  <span class="menu__overlay">Curriculum</span>
-                </a>
-              </li>
 
-              <li class="menu__option">
-                <a href="portafolio.html" class="menu__link ">
-                  <i class="menu__icon fa-solid fa-briefcase"></i>
-                  <span class="menu__overlay">Portafolio</span>
-                </a>
-              </li>
-              <li class="menu__option">
-                <a href="blog.html" class="menu__link menu__link--active">
-                  <i class="menu__icon fa-solid fa-book"></i>
-                  <span class="menu__overlay">Blog</span>
-                </a>
-              </li>
-              <li class="menu__option">
-                <a href="contacto.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-envelope"></i>
-                  <span class="menu__overlay">Contacto</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+            <div class="article__bottom">
+              <time datetime="2023-08-01" class="article__date">
+                01/08/2023</time>
+              <a href="#" class="article__link">
+                <h2 class="article__title">Como programar en 2024</h2>
+              </a>
+            </div>
+          </article>
 
-          <!--Informacion redes sociales -->
-          <div class="user-info__user-links">
-            <ul class="user-links__social">
-              <li class="social__option">
-                <a href="#" class="social__link">
-                  <i class="social__icon fa-brands fa-youtube"></i>
-                </a>
-              </li>
-              <li class="social__option">
-                <a href="#" class="social__link">
-                  <i class="social__icon fa-brands fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="social__option">
-                <a href="#" class="social__link">
-                  <i class="social__icon fa-brands fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <article class="articles__article">
+            <div class="article__top">
+              <div class="article__category">Desarrollo</div>
+              <a href="#" class="article__image-link">
+                <div class="article__mask">
+                  <img class="article__image" src="assets/img/articulo-2.jpg" alt="Imagen del blog" />
+                </div>
+                <div class="article__logo">
+                  <i class="article__icon fa-solid fa-book"></i>
+                </div>
+              </a>
+            </div>
 
-          <!--Informacion corriculum  -->
+            <div class="article__bottom">
+              <time datetime="2023-08-01" class="article__date">
+                01/09/2023</time>
+              <a href="#" class="article__link">
+                <h2 class="article__title">Como hacer animaciones en css</h2>
+              </a>
+            </div>
+          </article>
 
-          <div class="user-info__buttons">
-            <a href="#" class="user-info__btn">Descarga CV</a>
-          </div>
-          <!--Pie de Pagina -->
-          <footer class="user-info__footer">
-            &copy; 2024 Javier Valero - Web
-          </footer>
+          <article class="articles__article">
+            <div class="article__top">
+              <div class="article__category">Desarrollo</div>
+              <a href="#" class="article__image-link">
+                <div class="article__mask">
+                  <img class="article__image" src="assets/img/articulo-3.jpg" alt="Imagen del blog" />
+                </div>
+                <div class="article__logo">
+                  <i class="article__icon fa-solid fa-book"></i>
+                </div>
+              </a>
+            </div>
+
+            <div class="article__bottom">
+              <time datetime="2023-08-01" class="article__date">
+                01/01/2023</time>
+              <a href="#" class="article__link">
+                <h2 class="article__title">Como usar notion</h2>
+              </a>
+            </div>
+          </article>
+
+          <article class="articles__article">
+            <div class="article__top">
+              <div class="article__category">Desarrollo</div>
+              <a href="#" class="article__image-link">
+                <div class="article__mask">
+                  <img class="article__image" src="assets/img/articulo-4.jpg" alt="Imagen del blog" />
+                </div>
+                <div class="article__logo">
+                  <i class="article__icon fa-solid fa-book"></i>
+                </div>
+              </a>
+            </div>
+
+            <div class="article__bottom">
+              <time datetime="2023-08-01" class="article__date">
+                01/08/2023</time>
+              <a href="#" class="article__link">
+                <h2 class="article__title">
+                  Como sacar los controles ISO27001
+                </h2>
+              </a>
+            </div>
+          </article>
         </section>
-      </aside>
+      </section>
+    </main>
+  </div>
+</body>
 
-      <!-- Cotenido Principal de la pagina -->
-
-      <main class="layout__content">
-        <section class="content__page content__blog">
-          <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA -->
-          <header class="blog__header">
-            <h2 class="blog__title">Blog</h2>
-          </header>
-
-          <section class="blog__articles">
-            <article class="articles__article">
-              <div class="article__top">
-                <div class="article__category">Desarrollo</div>
-                <a href="#" class="article__image-link">
-                  <div class="article__mask">
-                    <img
-                    class="article__image"
-                      src="assets/img/articulo-1.jpg"
-                      alt="Imagen del blog"
-                    />
-                  </div>
-                  <div class="article__logo">
-                    <i class="article__icon fa-solid fa-book"></i>
-                  </div>
-                </a>
-              </div>
-
-              <div class="article__bottom">
-                <time datetime="2023-08-01" class="article__date">
-                  01/08/2023</time
-                >
-                <a href="#" class="article__link">
-                  <h2 class="article__title">Como programar en 2024</h2>
-                </a>
-              </div>
-            </article>
-
-            <article class="articles__article">
-              <div class="article__top">
-                <div class="article__category">Desarrollo</div>
-                <a href="#" class="article__image-link">
-                  <div class="article__mask">
-                    <img
-                    class="article__image"
-                      src="assets/img/articulo-2.jpg"
-                      alt="Imagen del blog"
-                    />
-                  </div>
-                  <div class="article__logo">
-                    <i class="article__icon fa-solid fa-book"></i>
-                  </div>
-                </a>
-              </div>
-
-              <div class="article__bottom">
-                <time datetime="2023-08-01" class="article__date">
-                  01/09/2023</time
-                >
-                <a href="#" class="article__link">
-                  <h2 class="article__title">Como hacer animaciones en css</h2>
-                </a>
-              </div>
-            </article>
-
-            <article class="articles__article">
-              <div class="article__top">
-                <div class="article__category">Desarrollo</div>
-                <a href="#" class="article__image-link">
-                  <div class="article__mask">
-                    <img
-                    class="article__image"
-                      src="assets/img/articulo-3.jpg"
-                      alt="Imagen del blog"
-                    />
-                  </div>
-                  <div class="article__logo">
-                    <i class="article__icon fa-solid fa-book"></i>
-                  </div>
-                </a>
-              </div>
-
-              <div class="article__bottom">
-                <time datetime="2023-08-01" class="article__date">
-                  01/01/2023</time
-                >
-                <a href="#" class="article__link">
-                  <h2 class="article__title">Como usar notion</h2>
-                </a>
-              </div>
-            </article>
-
-            <article class="articles__article">
-              <div class="article__top">
-                <div class="article__category">Desarrollo</div>
-                <a href="#" class="article__image-link">
-                  <div class="article__mask">
-                    <img
-                    class="article__image"
-                      src="assets/img/articulo-4.jpg"
-                      alt="Imagen del blog"
-                    />
-                  </div>
-                  <div class="article__logo">
-                    <i class="article__icon fa-solid fa-book"></i>
-                  </div>
-                </a>
-              </div>
-
-              <div class="article__bottom">
-                <time datetime="2023-08-01" class="article__date">
-                  01/08/2023</time
-                >
-                <a href="#" class="article__link">
-                  <h2 class="article__title">
-                    Como sacar los controles ISO27001
-                  </h2>
-                </a>
-              </div>
-            </article>
-          </section>
-        </section>
-      </main>
-    </div>
-  </body>
 </html>

@@ -1,194 +1,245 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--Estilos -->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
 
-  <!--Estilos -->
-  <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.css" />
-  <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="assets/css/scroll.css" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!--Scrips de JS-->
+    <script src="assets/js/menu.js" defer></script>
 
-  <title>appjavier</title>
+    <title>appjavier</title>
 
-  <scriptt src="assets/js/app.js" defer></scriptt>
+    <scriptt src="assets/js/app.js" defer></scriptt>
+  </head>
 
-</head>
+  <body>
+    <!--layout principal -->
 
-<body>
-  <!--layout principal -->
-
-  <div class="layout">
-    <!-- Barra lateral (info usuario )-->
-    <aside class="layout__aside">
-      <section class="aside__user-info">
-        <!--Informacion General -->
-        <div class="user-info__general">
-          <div class="user-info__container-imagen">
-            <img src="assets/img/javier-default.jpg" class="user-info__image" alt="foto perfil" />
+    <div class="layout">
+      <!-- Barra lateral (info usuario )-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!--Informacion General -->
+          <div class="user-info__general">
+            <div class="user-info__container-imagen">
+              <img
+                src="assets/img/javier-default.jpg"
+                class="user-info__image"
+                alt="foto perfil"
+              />
+            </div>
+            <h2 class="user-info__name">JAVIER VALERO ROJAS</h2>
+            <h3 class="user-info__job">Ingeniero Informático</h3>
           </div>
-          <h2 class="user-info__name">JAVIER VALERO ROJAS</h2>
-          <h3 class="user-info__job">Ingeniero Informático</h3>
-        </div>
-        <!--Informacion navegacion  -->
-        <nav class="layout__menu">
-          <ul class="menu__list">
-            <li class="menu__option">
-              <a href="index.html" class="menu__link">
-                <i class="menu__icon fa-solid fa-house"></i>
-                <span class="menu__overlay">Home</span>
-              </a>
-            </li>
-            <li class="menu__option">
-              <a href="sobre-mi.html" class="menu__link">
-                <i class="menu__icon fa-solid fa-user"></i>
-                <span class="menu__overlay">Sobre mi</span>
-              </a>
-            </li>
-            <li class="menu__option">
-              <a href="curriculum.html" class="menu__link">
-                <i class="menu__icon fa-solid fa-graduation-cap"></i>
-                <span class="menu__overlay">Curriculum</span>
-              </a>
-            </li>
+          <!--Informacion navegacion  -->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Curriculum</span>
+                </a>
+              </li>
 
-            <li class="menu__option">
-              <a href="portafolio.html" class="menu__link">
-                <i class="menu__icon fa-solid fa-briefcase"></i>
-                <span class="menu__overlay">Portafolio</span>
-              </a>
-            </li>
-            <li class="menu__option">
-              <a href="blog.html" class="menu__link">
-                <i class="menu__icon fa-solid fa-book"></i>
-                <span class="menu__overlay">Blog</span>
-              </a>
-            </li>
-            <li class="menu__option">
-              <a href="contacto.html" class="menu__link menu__link--active">
-                <i class="menu__icon fa-solid fa-envelope"></i>
-                <span class="menu__overlay">Contacto</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+              <li class="menu__option">
+                <a href="portafolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
 
-        <!--Informacion redes sociales -->
-        <div class="user-info__user-links">
-          <ul class="user-links__social">
-            <li class="social__option">
-              <a href="#" class="social__link">
-                <i class="social__icon fa-brands fa-youtube"></i>
-              </a>
-            </li>
-            <li class="social__option">
-              <a href="#" class="social__link">
-                <i class="social__icon fa-brands fa-linkedin"></i>
-              </a>
-            </li>
-            <li class="social__option">
-              <a href="#" class="social__link">
-                <i class="social__icon fa-brands fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+          <!--Informacion redes sociales -->
+          <div class="user-info__user-links">
+            <ul class="user-links__social">
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        <!--Informacion corriculum  -->
+          <!--Informacion corriculum  -->
 
-        <div class="user-info__buttons">
-          <a href="#" class="user-info__btn">Descarga CV</a>
-        </div>
-        <!--Pie de Pagina -->
-        <footer class="user-info__footer">
-          &copy; 2024 Javier Valero - Web
-        </footer>
-      </section>
-    </aside>
+          <div class="user-info__buttons">
+            <a href="#" class="user-info__btn">Descarga CV</a>
+          </div>
+          <!--Pie de Pagina -->
+          <footer class="user-info__footer">
+            &copy; 2024 Javier Valero - Web
+          </footer>
+        </section>
+      </aside>
 
-    <!-- Cotenido Principal de la pagina -->
+      <!-- Menu responsive de la pagina -->
 
-    <main class="layout__content">
-      <section class="content__page content__contact">
-        <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA -->
-        <!-- HEADER DE LA PAGES-->
-        <header class="contact__header">
-          <h2 class="contact__title">Contacto</h2>
-        </header>
+      <div class="layout__menu-toggle">
+        <i class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+      </div>
 
-        <!--INFORMACION DE LA PAGINA CUERPO-->
+      <!-- Cotenido Principal de la pagina -->
 
-        <div class="contact__container">
+      <main class="layout__content">
+        <section class="content__page content__contact">
+          <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA -->
+          <!-- HEADER DE LA PAGES-->
+          <header class="contact__header">
+            <h2 class="contact__title">Contacto</h2>
+          </header>
 
-          <section class="contact_info">
-            <div class="contact_data">
-              <i class="contact__icon fa-solid fa-location-dot"></i>
-              <h2 class="contact__subtitle">Bucaramanga</h2>
-            </div>
-            <div class="contact_data">
-              <i class="contact__icon fa-solid fa-phone"></i>
-              <h2 class="contact__subtitle">320-0000000</h2>
-            </div>
-            <div class="contact_data">
-              <i class="contact__icon fa-solid fa-envelope"></i>
-              <h2 class="contact__subtitle">javier@javiervalero.com.co</h2>
-            </div>
+          <!--INFORMACION DE LA PAGINA CUERPO-->
 
-            <div class="contact_data">
-              <i class="contact__icon fa-solid fa-circle-check"></i>
-              <h2 class="contact__subtitle">Analista Seguridad Freelance</h2>
-            </div>
-          </section>
-
-          <section class="contact__box">
-            <div class="contact__map" id="load-iframe-map">
-              <iframe class="contact__iframe" frameborfer="0" scrolling="no" marginheight="0" marginwindth="0"
-                width="600" height="450" style="border:0;" allowfullscreen=""
-                referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5599.000997203835!2d-73.12888418589125!3d7.115386217429565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68157af751c0ed%3A0x75a0e4551148c36c!2sBucaramanga%2C%20Santander!5e0!3m2!1ses!2sco!4v1691197633980!5m2!1ses!2sco"></iframe>
-            </div>
-            <header class="contact__form-header">
-              <h3 class="form-header__title">
-                Como puedo <span class="title__color">ayudarte</span>
-              </h3>
-            </header>
-
-            <form action="" class="contact__form">
-              <div class="form__container">
-                <section class="form__left">
-                  <div class="form__group">
-                    <input type="text" class="form__input" name="name" required placeholder="Nombre" />
-                    <label for="name" class="form__label">Nombre</label>
-                  </div>
-                  <div class="form__group">
-                    <input type="email" class="form__input" name="email" required placeholder="Email" />
-                    <label for="email" class="form__label">Email</label>
-                  </div>
-
-                  <div class="form__group">
-                    <input type="text" class="form__input" name="subject" required placeholder="subject" />
-                    <label for="subject" class="form__label">Asunto</label>
-                  </div>
-                </section>
-                <section class="form__right">
-                  <div class="form__group form__group--textarea">
-                    <textarea name="menssage" id="menssage" class="form__input form__input--textarea"></textarea>
-                    <label for="menssage" class="form__label">Mensaje</label>
-                  </div>
-                </section>
+          <div class="contact__container">
+            <section class="contact_info">
+              <div class="contact_data">
+                <i class="contact__icon fa-solid fa-location-dot"></i>
+                <h2 class="contact__subtitle">Bucaramanga</h2>
+              </div>
+              <div class="contact_data">
+                <i class="contact__icon fa-solid fa-phone"></i>
+                <h2 class="contact__subtitle">320-0000000</h2>
+              </div>
+              <div class="contact_data">
+                <i class="contact__icon fa-solid fa-envelope"></i>
+                <h2 class="contact__subtitle">javier@javiervalero.com.co</h2>
               </div>
 
-              <input type="submit" class="form__button" value="Enviar Mensaje" />
-            </form>
-          </section>
-        </div>
-      </section>
-    </main>
-  </div>
-</body>
+              <div class="contact_data">
+                <i class="contact__icon fa-solid fa-circle-check"></i>
+                <h2 class="contact__subtitle">Analista Seguridad Freelance</h2>
+              </div>
+            </section>
 
+            <section class="contact__box">
+              <div class="contact__map" id="load-iframe-map">
+                <iframe
+                  class="contact__iframe"
+                  frameborfer="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwindth="0"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5599.000997203835!2d-73.12888418589125!3d7.115386217429565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68157af751c0ed%3A0x75a0e4551148c36c!2sBucaramanga%2C%20Santander!5e0!3m2!1ses!2sco!4v1691197633980!5m2!1ses!2sco"
+                ></iframe>
+              </div>
+              <header class="contact__form-header">
+                <h3 class="form-header__title">
+                  Como puedo <span class="title__color">ayudarte</span>
+                </h3>
+              </header>
+
+              <form action="" class="contact__form">
+                <div class="form__container">
+                  <section class="form__left">
+                    <div class="form__group">
+                      <input
+                        type="text"
+                        class="form__input"
+                        name="name"
+                        required
+                        placeholder="Nombre"
+                      />
+                      <label for="name" class="form__label">Nombre</label>
+                    </div>
+                    <div class="form__group">
+                      <input
+                        type="email"
+                        class="form__input"
+                        name="email"
+                        required
+                        placeholder="Email"
+                      />
+                      <label for="email" class="form__label">Email</label>
+                    </div>
+
+                    <div class="form__group">
+                      <input
+                        type="text"
+                        class="form__input"
+                        name="subject"
+                        required
+                        placeholder="subject"
+                      />
+                      <label for="subject" class="form__label">Asunto</label>
+                    </div>
+                  </section>
+                  <section class="form__right">
+                    <div class="form__group form__group--textarea">
+                      <textarea
+                        name="menssage"
+                        id="menssage"
+                        class="form__input form__input--textarea"
+                      ></textarea>
+                      <label for="menssage" class="form__label">Mensaje</label>
+                    </div>
+                  </section>
+                </div>
+
+                <input
+                  type="submit"
+                  class="form__button"
+                  value="Enviar Mensaje"
+                />
+              </form>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
